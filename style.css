@@ -1,0 +1,44 @@
+body{
+    background-color: hsl(0, 0%, 90%);
+    font-family: sans-serif;
+}
+.form{
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.504);
+    margin-top: 15%;
+}
+#heading{
+    color: hsl(206, 98%, 51%);
+}
+#inputbox{
+    width: 50%;
+    font-size: 2.5em;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#convert-button{
+    font-size: 1.5rem;
+    margin-top: 15px;
+    background-color: hwb(0 44% 13%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#convert-button:hover{
+    background-color: #ea0c0c;
+}
+#result{
+    font-size: 1.5rem;
+}
